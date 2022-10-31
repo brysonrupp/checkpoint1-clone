@@ -1,0 +1,58 @@
+.navbar-color {
+    background-color: aqua;
+}
+
+.header-image {
+    background-image: url(https://bnetproduct-a.akamaihd.net//1e/39c66cf21cbd9e3949e3a0762dc2b860-KeyArt_AlphaTeam.png);
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image-2 {
+    background-image: url(https://images.pushsquare.com/1464b2217ecf7/overwatch-2-ps5-playstation-5-ps4-1.900x.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+
+.newHeight {
+    height: 60vh;
+    width: 30vw;
+}
+
+.row-2 {
+    background-color: aqua;
+    height: 30vh;
+}
+
+.row-3 {
+    height: 60vh;
+}
+
+.row-4 {
+    height: 40vh;
+    background-color: rgb(234, 234, 234);
+}
+
+.row-5 {
+    background-color: aqua;
+    height: 30vh;
+}
+
+.move-down {
+    transform: translateY(10vh);
+}
+
+body {
+    font-family: cursive;
+}
+
+@media screen and (max-width: 762px) {
+    .mobile {
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+}
