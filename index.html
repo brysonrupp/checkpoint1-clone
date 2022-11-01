@@ -37,68 +37,84 @@
 <body class="debug">
     <!-- //ANCHOR -  -->
     <!-- place navbar here -->
-    <header class="row sticky-top mobile content-fluid navbar-color">
-        <div class="col-1 d-flex justify-content-end">
-            <i class="mdi mdi-alien-outline fs-1"></i>
-        </div>
-        <div class="col-3 mobile">
-            <h1>lorem ipsum</h1>
+    <header class="container-fluid sticky-top">
+        <div class="row navBardWidth navbar-color">
+            <div class="col-1 offset-1 d-flex justify-content-end">
+                <i class="mdi mdi-alien-outline fs-1"></i>
+            </div>
+            <div class="col-9">
+                <h1>lorem ipsum</h1>
+            </div>
         </div>
     </header>
-    <div class="row header-image">
-        <div class="col-3 offset-1 bg-light my-5">
-            <div class="row d-flex justify-content-center">
-                <div class="col-12">
-                    <h4 class="">subtle heading</h4>
-                    <form class="" action="/action_page.php">
-                        <div class="">
-                            <label for="email" class="form-label">Email:</label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-                        </div>
-                        <div class="">
-                            <label for="pwd" class="form-label">Password:</label>
-                            <input type="password" class="form-control" id="pwd" placeholder="Enter password"
-                                name="pswd">
-                        </div>
-                        <div class="form-check">
-                            <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox" name="remember"> Remember me
-                            </label>
-                        </div>
-                        <div class="mb-3">
-                            <label for="" class="form-label"></label>
-                            <textarea class="form-control" name="" id="" rows="5"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary ms-3">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="col-4 offset-2 mobile d-none d-md-block p-5 text-dark">
-            <div class="row ">
-                <div class="col-12">
-                    <h1>overwatch</h1>
-                    <p class="fs-4">overwatch is a competative fps</p>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!-- //ANCHOR - start of body -->
 
-    <main>
-        <section class="row mobile row-2">
-            <div class="col-5 mobile offset-2 d-flex order-lg-2 align-items-center justify-content-center move-down">
-                <div class="card" style="width: 55rem;">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
-                        <li class="list-group-item">A fourth item</li>
-                        <li class="list-group-item">A fifth item</li>
-                    </ul>
+    <main class="container-fluid">
+
+        <!-- SECTION TOP BODY -->
+        <div class="row header-image">
+            <div class="col-3 mobile offset-1 bg-light my-5">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12">
+                        <h4 class="">subtle heading</h4>
+                        <form class="" action="/action_page.php">
+                            <div class="">
+                                <label for="email" class="form-label">Email:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email"
+                                    name="email">
+                            </div>
+                            <div class="">
+                                <label for="pwd" class="form-label">Password:</label>
+                                <input type="password" class="form-control" id="pwd" placeholder="Enter password"
+                                    name="pswd">
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                                </label>
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label"></label>
+                                <textarea class="form-control" name="" id="" rows="5"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary ms-3">Submit</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-            <div class="col-4 mobile ps-5 py-5">
+            <div class="col-4 offset-2 mobile d-none d-md-block p-5 text-dark">
+                <div class="row ">
+                    <div class="col-12">
+                        <h1>overwatch</h1>
+                        <p class="fs-4">overwatch is a competative fps</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECTION SECOND BODY -->
+        <section class="row d-flex">
+            <div class="col-12 col-md-5 offset-md-2 order-1 order-md-2 justify-content-center move-down card">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>D.VA</h1>
+                    </div>
+                    <div class="col-12">
+                        <h2>Zarya</h2>
+                    </div>
+                    <div class="col-12">
+                        <h3>Tracer</h3>
+                    </div>
+                    <div class="col-12">
+                        <h4>Genji</h4>
+                    </div>
+                    <div class="col-12">
+                        <h5>Ana</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mobile ps-5 py-5">
                 <h2>overwatch is fun</h2>
                 <h2>play overwatch</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis impedit doloribus autem ipsam
@@ -106,66 +122,52 @@
             </div>
 
         </section>
-        <section class="row d-flex mobile align-items-center">
-            <div class="col-3 mobile row-3 m-5">
+        <section class="row row-2 d-flex mobile align-items-center">
+            <div class="col-md-3 mobile row-3 m-5">
                 <img class="mobile newHeight"
                     src="https://images.pushsquare.com/1464b2217ecf7/overwatch-2-ps5-playstation-5-ps4-1.900x.jpg"
                     alt="" srcset="">
             </div>
-            <div class="col-6 offset-1 mobile d-flex flex-column">
+            <div class="col-md-6 p-4 offset-1 mobile d-flex flex-column">
 
                 <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h1>
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis corporis nihil iusto enim
                     voluptates eveniet ipsum itaque nisi laudantium alias consectetur fugit, illo accusamus odit
                     repudiandae maxime eaque minus dolorem.</p>
-                <div><button class="offset-11">more</button>
+                <div><button class="offset-9">more</button>
                 </div>
             </div>
         </section>
-        <section class="row row-4 mobile overflow-hidden justify-content-around align-items-center">
-            <div class="col-2 mobile">
-                <div class="card" style="width: 18rem;">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
-                    </ul>
-                    <div class="card-footer mobile">
-                        Card footer
-                    </div>
+        <section class="row row-4 my-2 justify-content-around align-items-center">
+            <div class="col-8 col-md-3 card order-2 bg-danger text-light order-md-1">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-8 my-2">Competative</div>
+                    <div class="col-8 my-2">Quick-play</div>
+                    <div class="col-8 my-2">Arcade</div>
                 </div>
             </div>
-            <div class="col-2 mobile">
-                <div class="card mobile p-3" style="width: 18rem;">
-                    <div class="mobile card-header">
-                        Featured
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
-                    </ul>
+            </div>
+            <div class="col-8 col-md-3 order-1 order-md-2 bg-dark text-light">
+                <div class="row d-flex justify-content-center my-md-5">
+                    <div class="col-8 my-2">Custom</div>
+                    <div class="col-8 my-2">Competative</div>
+                    <div class="col-8 my-2">Quick-play</div>
                 </div>
             </div>
-            <div class="col-2 mobile">
-                <div class="card" style="width: 18rem;">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
-                    </ul>
-                    <div class="card-footer">
-                        Card footer
-                    </div>
+            <div class="col-8 col-md-3 order-3 bg-danger text-light order-md-3">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-8 my-2">Competative</div>
+                    <div class="col-8 my-2">Quick-play</div>
+                    <div class="col-8 my-2">Arcade</div>
                 </div>
             </div>
         </section>
-        <section class="row mobile p-4 row-5">
+        <section class="row p-2 mobile row-5">
             <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime eos saepe exercitationem, eligendi eius
-                perferendis incidunt obcaecati beatae iusto deserunt illum odit animi officiis, dolor harum quam dolorem
-                ullam sequi!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime eos saepe exercitationem,
+                eligendi eius
+                perferendis incidunt obcaecati beatae iusto deserunt illum odit </p>
         </section>
 
 

@@ -1,10 +1,13 @@
+.navBardWidth {
+    width: 100vw;
+}
+
 .navbar-color {
     background-color: aqua;
 }
 
 .header-image {
     background-image: url(https://bnetproduct-a.akamaihd.net//1e/39c66cf21cbd9e3949e3a0762dc2b860-KeyArt_AlphaTeam.png);
-    height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -23,7 +26,7 @@
 
 .row-2 {
     background-color: aqua;
-    height: 30vh;
+
 }
 
 .row-3 {
@@ -38,6 +41,7 @@
 .row-5 {
     background-color: aqua;
     height: 30vh;
+
 }
 
 .move-down {
@@ -48,11 +52,17 @@ body {
     font-family: cursive;
 }
 
-@media screen and (max-width: 762px) {
+@media (max-width: 762px) {
     .mobile {
-        width: 100%;
+        width: 90%;
         display: block;
         margin: auto;
-        margin-bottom: 25px;
+    }
+
+
+    @media (max-width: 650px) {
+        .move-down {
+            transform: translateY(none);
+        }
     }
 }
